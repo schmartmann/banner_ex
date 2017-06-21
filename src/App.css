@@ -21,6 +21,14 @@
   bottom: 15%;
 }
 
+.productResolve {
+  transform: scale(0.2);
+  position: relative; 
+  right: 150px;
+  bottom: 2070px;
+  opacity: 0;
+}
+
 .f4Copy {
   opacity: 0;
   width: 100%;
@@ -48,28 +56,13 @@
   height: auto; 
 }
 
-.productResolve {
-  opacity: 0;
-  position: relative; 
-  bottom: 430%;
-  width: 100%;
-  height: auto; 
-}
-
-.productStatic {
-  opacity: 0;
-  position: relative; 
-  bottom: 430%;
-  width: 100%;
-  height: auto; 
-}
 
 .linkSlug {
   opacity: 0;
   position: relative; 
-  bottom: 430%;
-  left: 20%;
-  width: 100%;
+  bottom: 615%;
+  left: 1%;
+  width: 80%;
   height: auto; 
 }
 

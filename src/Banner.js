@@ -52,6 +52,20 @@ class Banner extends Component {
       delay: 7.25, 
       opacity: 1,
     });
+    TweenMax.to(".linkSlug", 0.1, {
+      delay: 8,
+      opacity: 1,
+    });
+    TweenMax.to(".target", 1, {
+      delay: 8,
+      opacity: 0,
+      zIndex: -1,
+    });
+    TweenMax.to(".productResolve", 1, {
+      delay: 8,
+      opacity: 1,
+      zIndex: 1,
+    });
   };
   render() {
     return(
@@ -65,6 +79,12 @@ class Banner extends Component {
           src="./assets/f5_copy1.png"/>
         <img className="f5Copy2"
           src="./assets/f5_copy2.png"/>
+        <img className="linkSlug"
+          src="./assets/cta.png"
+          onClick={ () => { window.location.href = "http://craftny.io/"}}
+        />
+        <img className="productResolve"
+          src="./assets/product_resolve.jpg"/>
       </div>
     )
   }
