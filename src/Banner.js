@@ -22,7 +22,9 @@ class Banner extends Component {
   render() {
     return(
       <div className="banner">
-        <img src="./assets/product.jpg"/>
+        <img 
+          className="target"
+          src="./assets/product.jpg"/>
       </div>
     )
   }

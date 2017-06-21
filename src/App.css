@@ -15,6 +15,12 @@
   overflow: hidden;
 }
 
+.target {
+  position: relative; 
+  right: 15%;
+  bottom: 15%;
+}
+
 .App {
   text-align: center;
 }
