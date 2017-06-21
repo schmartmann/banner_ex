@@ -9,12 +9,20 @@ class Banner extends Component {
     this.tweenMax();
   };
   tweenMax() {
-    TweenMax.to(".target", 1, {marginLeft:10, backgroundColor: "red"});
+    TweenMax.to(".target", 1, {
+      marginLeft:10, 
+      backgroundColor: "red",
+    });
+    TweenMax.to(".target", 1, {
+        marginLeft:"-10%", 
+        delay: 1.5,
+        backgroundColor: "blue", }
+      );
   };
   render() {
     return(
       <div className="banner">
-        <p className="target">Poo Poo Pee Pee</p>
+        <img src="./assets/product.jpg"/>
       </div>
     )
   }

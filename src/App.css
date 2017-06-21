@@ -12,6 +12,7 @@
   border: 1px solid orange; 
   height: 250px; 
   width: 300px;
+  overflow: hidden;
 }
 
 .App {
