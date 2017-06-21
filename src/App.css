@@ -21,6 +21,58 @@
   bottom: 15%;
 }
 
+.f4Copy {
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  position: relative; 
+  bottom: 330%;
+  left: 0;
+}
+
+.f5Copy1 {
+  opacity: 0;
+  position: relative; 
+  bottom: 430%;
+  left: 20%;
+  width: 100%;
+  height: auto; 
+}
+
+.f5Copy2 {
+  opacity: 0;
+  position: relative; 
+  bottom: 531.5%;
+  left: 1%;
+  width: 100%;
+  height: auto; 
+}
+
+.productResolve {
+  opacity: 0;
+  position: relative; 
+  bottom: 430%;
+  width: 100%;
+  height: auto; 
+}
+
+.productStatic {
+  opacity: 0;
+  position: relative; 
+  bottom: 430%;
+  width: 100%;
+  height: auto; 
+}
+
+.linkSlug {
+  opacity: 0;
+  position: relative; 
+  bottom: 430%;
+  left: 20%;
+  width: 100%;
+  height: auto; 
+}
+
 .App {
   text-align: center;
 }
