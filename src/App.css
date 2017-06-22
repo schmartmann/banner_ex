@@ -66,6 +66,19 @@
   height: auto; 
 }
 
+.bubblesContainer {
+  border: 1px solid black;
+  height: 74px; 
+  width: 34px;
+  position: relative;
+  bottom: 122px;
+  overflow: hidden;
+}
+
+.bubble {
+  
+}
+
 .credits {
   width: 300px;
   font-size: 10px;

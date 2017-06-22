@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Banner from './Banner';
+import Bubbles from './Bubbles';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <div className="bannerContainer">
           <Banner/>
+          <Bubbles/>
           <div className="credits">
             <p>Created by Stefan Hartmann, 2017</p>
             <p><a href="http://schmartmann.com">Portfolio</a></p>
