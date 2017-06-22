@@ -8,6 +8,11 @@ class App extends Component {
       <div className="App">
         <div className="bannerContainer">
           <Banner/>
+          <div className="credits">
+            <p>Created by Stefan Hartmann, 2017</p>
+            <p><a href="http://schmartmann.com">Portfolio</a></p>
+            <p><a href="http://github.com/schmartmann">GitHub</a></p>
+          </div>
         </div>
       </div>
     );

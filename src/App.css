@@ -60,33 +60,16 @@
 .linkSlug {
   opacity: 0;
   position: relative; 
-  bottom: 615%;
-  left: 1%;
+  bottom: 614%;
+  left: 10%;
   width: 80%;
   height: auto; 
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.credits {
+  width: 300px;
+  font-size: 10px;
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }

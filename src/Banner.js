@@ -64,7 +64,6 @@ class Banner extends Component {
     TweenMax.to(".productResolve", 1, {
       delay: 8,
       opacity: 1,
-      zIndex: 1,
     });
   };
   render() {
